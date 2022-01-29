@@ -1,0 +1,50 @@
+body {
+	background: #dbcdbc !important;
+}
+
+.hide {
+	display: none !important;
+}
+
+.menu{
+	background: #919b9f;
+	border: 2px solid;
+	border-radius: 5px;
+}
+
+.menu>h5 {
+	display: inline;
+}
+.menu>li {
+	list-style: none;
+	font-weight: 600;
+	float: right;
+	display: inline;
+}
+
+.menu>li:hover{
+	color: #2227b9;
+	cursor: pointer;
+	text-decoration: underline;
+	font-weight: 600;
+	float: right;
+}
+
+.flex {
+	/*display: flex;*/
+	/*justify-content: end;*/
+}
+
+.flex-login {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 150px;
+}
+
+.flex-register {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 120px;
+}
